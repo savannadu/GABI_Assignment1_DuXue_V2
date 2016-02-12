@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dengue Cases Distribution 2013</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="css/own_style.css">
+	<link rel="stylesheet" href="css/MarkerCluster.css" />
+	<link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+	<link rel="stylesheet" href="css/label.css" />
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.css" />	
+	<!--script-->
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+	<script src="js/leaflet-hash.js"></script>
+	<script src="js/label.js"></script>
+	<script src="js/Autolinker.min.js"></script>
+	<script src="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.js"></script>
+	<script src="js/leaflet.markercluster.js"></script>
+	<script src="js/jquery-1.12.0.js"></script>
+	<script src="js/leaflet-google.js"></script>
+	<script src="js/TileLayer.Grayscale.js"></script>
+	
+	
+	<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAn7aZ_S6H6KE2pnqk9ddAm_o9abviEs_M'></script>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+	
+
+
+</head>
+<body>
+	<div class="loading-wrap">
+		<div class="loading"><img src="pictures/loading.gif"/></div>
+	</div>
+
+	<div id="map"></div>
+	<script src="data/exp_DengueCase.js"></script>
+	<script src="data/exp_waterwaywithincostaloutline.js"></script>
+	<script src="data/exp_buildingwithincostaloutline.js"></script>
+	<script src="data/exp_SearchBuildWithCases.js"></script>
+	<script src="data/exp_NumCaseInBildingBuffer.js"></script>
+	<script src="data/exp_waterwaywithincostaloutlinebuffer.js"></script>
+	<script src="data/exp_WaterwayIntercectwithBuildingBuffer.js"></script>
+	<script src="data/exp_waterandBuildingBufferClip.js"></script>
+	<script type='text/javascript' src='maps/airports.js'></script>
+	<script type='text/javascript' src='maps/leaf-demo.js'></script>
+	<script src="data/exp_SubZoneandPopulation.js"></script>
+
+	<script src="js/app.js"></script>
+	<script> window.onload = loadScript; </script>
+</body>
+</html>
